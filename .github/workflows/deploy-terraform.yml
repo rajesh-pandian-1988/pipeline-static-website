@@ -39,7 +39,7 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --account-name staticstorage0205 --auth-mode key -d '$web' -s ./app
+            az storage blob upload-batch --account-name staticstorage0115 --auth-mode key -d '$web' -s ./app
       - name: logout
         run: |
           az logout
