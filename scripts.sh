@@ -1,6 +1,6 @@
 az ad sp create-for-rbac --name "static_owner" --role owner --scopes /subscriptions/35b269d2-7c5c-4f36-abf1-56099fd97991 --sdk-auth
 
-az ad sp create-for-rbac --name <name-for-access> --role owner --scopes /subscriptions/<subscription-id> --sdk-auth
+az ad sp create-for-rbac --name <name-for-access> --role contributor --scopes /subscriptions/<subscription-id> --sdk-auth
 
 {
   "clientId": "2c4b3926-f421-4311-834d-12c74dc6d18d",        
